@@ -1,4 +1,6 @@
-
+a{
+  text-decoration:none;
+}
 
 .page {
   min-width: 1100px;
@@ -246,9 +248,10 @@
   right: 48px;
   top:50%;
   font-size: 36px;
+}
+.feynman_link a{
   color:#2f80ed;
 }
-
 .kaufman{
   display:flex;
   align-items: center;
@@ -333,5 +336,5 @@
 .footer_link{
   line-height:30px;
   font-size: 18px;
-  
+  color:white;
 }
