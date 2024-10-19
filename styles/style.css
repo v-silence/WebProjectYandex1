@@ -441,6 +441,12 @@ a{
   width:877px;
   height:877px;
   right:-210px;
+  transition-property:transform;
+  transition-duration:5s;
+  transition-timing-function:linear;
+}
+.kaufman_triangle:hover{
+  transform:rotate(360deg);
 }
 
 .footer{
