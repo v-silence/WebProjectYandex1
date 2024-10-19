@@ -11,7 +11,7 @@ a{
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
-  background-color: aquamarine;
+  background-color: white;
 }
 .logo{
   width:228px;
@@ -151,6 +151,67 @@ a{
   background-color: white;
 }
 
+.cards{
+  width:920px;;
+  display:flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap:100px;
+}
+
+
+.cards__item{
+  width:240px;
+  margin-top:60px;
+}
+
+.cards__item_inv{
+  visibility: hidden;
+}
+.cards__image{
+  width:160px;
+  height:160px;
+  margin:auto;
+  margin-top:0px;
+  background-size: contain;
+  border-radius:50%;
+}
+
+.cards__image_attention{
+  background-image: url(../images/cards-attention.png);
+}
+
+.cards__image_recall{
+  background-image: url(../images/cards-recall.png);
+}
+.cards__image_interliving{
+  background-image: url(../images/cards-interliving.png);
+}
+
+.cards__image_question{
+  background-image: url(../images/cards-question.png);
+}
+.cards__image_competence{
+  background-image: url(../images/cards-competence.png);
+}
+
+
+.cards__title{
+  margin-top:43px;
+  text-align: center;
+  line-height:1.15;
+  font-size:24px;
+  font-weight: 600;
+}
+
+.cards__description{
+  margin-top:16px;
+  text-align:center;
+  line-height:23px;
+  font-size:18px;
+}
+
 .video{
   display:flex;
   align-items: center;
@@ -231,7 +292,6 @@ a{
   width:80%;
   margin:auto;
   margin-top:105px;
-  margin-bottom:10px;
 }
 
 .khan_author{
@@ -277,6 +337,7 @@ a{
   background-image:url(../images/khan-book.jpg);
   width:620px;
   height:608px;
+  margin-bottom:10px;
 }
 
 .khan__buy-link{
