@@ -1,0 +1,47 @@
+.kaufman{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    background-color:  #1f1f1f;
+    color:white;
+    position:relative;
+    overflow: hidden;
+  }
+  
+  .table_theme_dark{
+    width:1100px;
+    margin:0 auto auto auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom:90px;
+    z-index: 4;
+  }
+  /* и элемента с модификатором вида ключ-значение */
+  .table__cell_theme_dark {
+    width: 200px;
+    color: white;
+    margin-right: 0;
+    margin-top: 80px;
+  
+  }
+  
+  .table_cell_p{
+    font-size:18px;
+  }
+  
+  .kaufman_triangle{
+    position:absolute;
+    background-image: url(../../images/kaufman-triangle.svg);
+    width:877px;
+    height:877px;
+    right:-210px;
+    transition-property:transform;
+    transition-duration:3s;
+    transition-timing-function:linear;
+  }
+  .kaufman_triangle:hover{
+    transform:rotate(360deg);
+  }
+  

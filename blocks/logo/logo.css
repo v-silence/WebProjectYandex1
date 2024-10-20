@@ -1,0 +1,25 @@
+.logo{
+    width:228px;
+    height:32px;
+    font-size:30px;
+    z-index: 4;
+    
+  }
+
+  .logo_place_header{
+    background-image:url(../../images/logo_place_header.svg);
+    position:absolute;
+    top:30px;
+    left:64px;
+  }
+  
+  .logo_place_footer{
+    background-image:url(../../images/logo_place_footer.svg);
+    position:absolute;
+    top:0;
+    left:0;
+    width:228px;
+    height:32px;
+    font-size:30px;
+    z-index: 4;
+  }

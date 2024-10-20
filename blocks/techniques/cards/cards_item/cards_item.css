@@ -1,0 +1,50 @@
+.cards__item{
+    width:240px;
+    margin-top:60px;
+  }
+  
+  .cards__item_inv{
+    visibility: hidden;
+  }
+  .cards__image{
+    width:160px;
+    height:160px;
+    margin:auto;
+    margin-top:0px;
+    background-size: contain;
+    border-radius:50%;
+  }
+  
+  .cards__image_attention{
+    background-image: url(../../../../images/cards-attention.png);
+  }
+  
+  .cards__image_recall{
+    background-image: url(../../../../images/cards-recall.png);
+  }
+  .cards__image_interliving{
+    background-image: url(../../../../images/cards-interliving.png);
+  }
+  
+  .cards__image_question{
+    background-image: url(../../../../images/cards-question.png);
+  }
+  .cards__image_competence{
+    background-image: url(../../../../images/cards-competence.png);
+  }
+  
+  
+  .cards__title{
+    margin-top:43px;
+    text-align: center;
+    line-height:1.15;
+    font-size:24px;
+    font-weight: 600;
+  }
+  
+  .cards__description{
+    margin-top:16px;
+    text-align:center;
+    line-height:23px;
+    font-size:18px;
+  }
