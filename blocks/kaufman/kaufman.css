@@ -1,3 +1,13 @@
+@keyframes rotation{
+  from {
+       transform: rotate(0deg);
+   }
+   to {
+       transform: rotate(360deg);
+   }
+}
+
+
 .kaufman{
     display:flex;
     align-items: center;
@@ -40,6 +50,7 @@
     transition-property:transform;
     transition-duration:3s;
     transition-timing-function:linear;
+    animation: rotation 20s infinite linear;
   }
   .kaufman_triangle:hover{
     transform:rotate(360deg);
