@@ -1,5 +1,11 @@
 a{
-    text-decoration:none;
+    text-decoration: none;
+
+  }
+  a:hover{
+    opacity: 50%;
+    transition: 1s;
+
   }
   
   .page {
@@ -11,5 +17,5 @@ a{
     margin: 0 auto;
     /* выше для экранов больше 1600px отцентрировали весь контент */
     font-family: 'Helvetica Neue', Arial, sans-serif;
-    background-color: white;
+    background-color: #f2f2f2;
   }
